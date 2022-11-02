@@ -4,10 +4,10 @@
   * Grado en Ingeniería Informática
   * Informática Básica 2022-2023
   *
-  * @file .cc
+  * @file cambio_minuscula_mayuscula.cc
   * @autor alu0101562445@ull.edu.es
-  * @fecha 1 oct 2022
-  * @resumen El programa cambia entre mayuscula y minuscula
+  * @fecha 2 oct 2022
+  * @resumen El programa cambia entre mayuscula y minuscula segun el caracte    r introducido
   */
 
 #include <iostream>
