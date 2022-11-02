@@ -13,12 +13,17 @@
 #include <iostream>
 
 int main() {
-  char letra;
-  
+ char letra;
+
   //std::cout << "introduce una letra: " ; 
   std::cin >> letra;
-
-  letra += 32;
+  int letra_num {letra};
+    if (letra_num < 95) {
+    letra += 32;
+  }
+  else {
+    letra -= 32;
+  }
   std::cout << letra << std::endl;
 
   return 0;
