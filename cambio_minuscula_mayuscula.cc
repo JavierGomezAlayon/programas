@@ -15,7 +15,7 @@
 int main() {
   char letra;
   
-  std::cout << "introduce una letra: " ; 
+  //std::cout << "introduce una letra: " ; 
   std::cin >> letra;
 
   letra += 32;
