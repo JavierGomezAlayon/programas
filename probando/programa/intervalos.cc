@@ -21,5 +21,7 @@ int main() {
     std::cout << numero1 << ",";
     ++numero1;
   }
-  std::cout << numero2 << std::endl;
+  if (numero1 == numero2) {
+    std::cout << numero2 << std::endl;
+  }
 }
