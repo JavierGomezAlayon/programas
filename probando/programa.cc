@@ -18,10 +18,10 @@ int main() {
   if (numeroB1 <= numeroA2) {
     int minimo;
     if (numeroA1 <= numeroB1 ) {
-      minimo = numeroA1;
+      minimo = numeroB1;
     }
     else {
-      minimo = numeroB1;
+      minimo = numeroA1;
     }
 
     int maximo;    
