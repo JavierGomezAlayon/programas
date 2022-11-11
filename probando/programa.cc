@@ -34,6 +34,10 @@ int main() {
     if (minimo < maximo) {
       std::cout << "[" << minimo << "," << maximo << "]" << std::endl;
     }
+    else {
+    std::cout << "[]" << std::endl;
+    return 0;
+    }
   }
   else {
     std::cout << "[]" << std::endl;
