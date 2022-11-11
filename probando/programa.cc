@@ -30,8 +30,10 @@ int main() {
     }
     else {
       maximo = numeroB2;
+    } 
+    if (minimo < maximo) {
+      std::cout << "[" << minimo << "," << maximo << "]" << std::endl;
     }
-    std::cout << "[" << minimo << "," << maximo << "]" << std::endl;
   }
   else {
     std::cout << "[]" << std::endl;
