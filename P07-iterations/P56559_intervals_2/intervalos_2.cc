@@ -15,16 +15,18 @@
 void AnalisisIntervalos (int numA1, int numA2, int numB1, int numB2) {
   if (numA1 == numB1 && numA2 == numB2) {
     std::cout << "=" << std::endl;
+    return;
   }
-  else if (numA1 >= numB1 && numA2 <= numB2) {
+  if (numA1 >= numB1 && numA2 <= numB2) {
     std::cout << "1" << std::endl;
+    return;
   }
-  else if (numA1 <= numB1 && numA2 >= numB2) {
+  if (numA1 <= numB1 && numA2 >= numB2) {
     std::cout << "2" << std::endl;
+    return;
   }
-  else {
-    std::cout << "?" << std::endl;
-  }
+  std::cout << "?" << std::endl;
+  return;
 }
 
 int main() {
