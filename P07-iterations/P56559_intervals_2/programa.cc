@@ -12,10 +12,7 @@
 
 #include <iostream>
 
-int main() {
-  //std::cout << "inserta dos intervalos" << std::endl;
-  int numA1, numA2, numB1, numB2;
-  std::cin >> numA1 >> numA2 >> numB1 >> numB2 ; 
+void AnalisisIntervalos (int numA1, int numA2, int numB1, int numB2) {
   if (numA1 == numB1 && numA2 == numB2) {
     std::cout << "=" << std::endl;
   }
@@ -28,4 +25,12 @@ int main() {
   else {
     std::cout << "?" << std::endl;
   }
+}
+
+int main() {
+  //std::cout << "inserta dos intervalos" << std::endl;
+  int numA1, numA2, numB1, numB2;
+  std::cin >> numA1 >> numA2 >> numB1 >> numB2 ; 
+  AnalisisIntervalos (numA1, numA2, numB1, numB2);
+  return 0;
 }
